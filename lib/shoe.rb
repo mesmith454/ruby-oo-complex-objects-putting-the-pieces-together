@@ -1,4 +1,4 @@
-# Make your shoe class here!
+require 'pry'
 class Shoe
     attr_accessor :color, :size, :material, :condition
     def initialize(brand)
@@ -16,4 +16,4 @@ class Shoe
     
 end
 
-
+# binding.pry
